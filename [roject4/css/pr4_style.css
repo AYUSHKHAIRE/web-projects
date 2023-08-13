@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+::selection {
+    background-color: rgb(255, 255, 255);
+    color: rgb(74, 46, 99);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* let us design the first navbar  */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    color: white;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+
+.background {
+    background: rgb(0, 0, 0, 0.7) url("https://source.unsplash.com/featured/300x202");;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* let us design the navbar 1  */
+.navbar #navbar1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+    overflow: hidden;
+}
+
+/* the lists in the element  */
+.navbar #navbar1 #navlist {
+    display: flex;
+}
+
+/* itema in navbar 1  */
+.navbar #navbar1 #navlist li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+}
+.navbar #navbar1 #navlist li input,
+button {
+    height: 25px;
+    background-color: rgba(168, 160, 160, 0.3);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+.navbar #navbar1 #navlist li button {
+    height: 30px;
+    width: 55px;
+}
+
+/* logo  */
+#navbar1 ::placeholder{
+    color: aliceblue;
+}
+.navbar #navbar1 #navlist .logo {
+    display: flex;
+}
+
+.navbar #navbar1 #navlist .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+/* navbar 2  */
+#navbar2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#navlist2 {
+    display: flex;
+    list-style: none;
+}
+
+#navlist2 li {
+    margin: 3px 10px;
+    padding: 3px 10px;
+    font-size: 20px;
+}
+#navlist2 li :hover{
+    color: rgb(202, 171, 232);
+    padding: 2px ;
+    text-decoration: underline rgb(208, 79, 255);
+}
+#navlist2 li a {
+    text-decoration: none;
+    color: white
+}
+
+/* cont1 section  */
+.cont1 {
+    margin-top: 80px;
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.passages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.cont1 {
+    width: 1200px;
+    display: flex;
+}
+
+.cont1 img {
+    padding: 30px;
+    height: 350px;
+    width: 350px;
+    border-radius: 175px;
+}
+
+.parabtn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pbtn {
+    color: aliceblue;
+    background: none;
+    margin: 20px;
+    padding: 10px;
+    font-size: 22px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 220px;
+}
+.cont1 button :hover{
+    color: rgb(0, 0, 0);
+    background-color: skyblue;
+    opacity: 0.4;
+}
+.cont2 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.cont2 img{
+    padding: 30px;
+    height: 350px;
+    width: 350px;
+    border-radius: 175px;
+}
+
+.contcont2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 1200px;
+}
+#contactus{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(67, 74, 74);
+    color: aliceblue;
+    font-size: 20px;
+}
+#contactus #form{
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+#form input{
+    padding: 5px;
+    font-size: 16px;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 12px;
+}

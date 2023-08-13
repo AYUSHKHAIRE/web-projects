@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayushgymservices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        /*background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701968456-1024x585.jpg');*/
+        background: url('https://wallpapercave.com/wp/wp7578886.jpg');
+        background-repeat: 3 repeat;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+    }
+
+    .lef {
+        display: inline-block;
+        display: flex;
+        position: fixed;
+        /*border: 2px solid red;*/
+        left: 3px;
+        top: 1px;
+        margin-top: 70px;
+        padding: 4px;
+
+    }
+
+    .mid {
+        display: block;
+        /*border: 2px solid red;*/
+        width: 70%;
+        padding: 4px;
+        margin: 3px auto;
+
+    }
+
+    .rig {
+        position: fixed;
+        display: flex;
+        right: 43px;
+        top: 19px;
+        border: 2px solid rgb(201, 255, 201);
+        background-color: #94b382;
+        border-radius: 80px;
+        display: inline-block;
+        margin-top: 70px;
+        padding: 4px;
+    }
+
+    .navbar {
+        display: inline-block;
+        height: 20px;
+        position: fixed;
+        display: flex;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        padding: 9px 18px 9px 18px;
+        margin: 2px;
+        font-size: 17px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: overline underline;
+        color: #0a603a;
+        background-color: #94b382;
+        border: 2px solid black;
+        border-radius: 30px;
+    }
+
+    .lef img {
+        padding-left: 33%;
+        width: 60px;
+        ;
+    }
+
+    .lef div {
+        text-align: center;
+        color: rgb(219, 113, 255);
+        font-size: 30px;
+
+    }
+
+    .btn {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgba(0, 0, 0);
+        border-radius: 10px;
+        width: 100px;
+        height: 30px;
+        margin: 2px 5px;
+        padding: 5px 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #d1ffb7;
+        color: #000000;
+        text-decoration: overline underline;
+    }
+
+    .container {
+        /*border: 2px solid red;*/
+        float: left;
+        margin: 90px 90px;
+        width: 30%;
+        height: 50%;
+        padding: 30px 30px;
+        border-radius: 20px;
+        margin-top: 150px;
+    }
+
+    .container h3 {
+        color: whitesmoke;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .container h6 {
+        color: rgb(255, 177, 177);
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .container button {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+
+    .form-g input {
+        text-align: center;
+        display: block;
+        width: 200px;
+        height: 14px;
+        border: 2px solid rgb(186, 255, 186);
+        margin: 3px auto;
+        padding: 3px 3px;
+        border-radius: 60px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .cont1 {
+        border: 2px solid rgb(0, 0, 0);
+        margin: 60px;
+        text-align: center;
+        margin-top: 250px;
+
+    }
+
+    .cont1 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .aside {
+        text-align: center;
+        color: aliceblue;
+    }
+</style>
+
+<body>
+    <header class="hea">
+        <!-- for logo -->
+        <div class="lef">
+            <img src="https://thumbs.dreamstime.com/b/white-dumbbell-gym-logo-black-background-workout-sign-vector-template-172909186.jpg"
+                alt="">
+            <div class="gymn"> Ayush's fitness</div>
+        </div>
+        <!-- for nev -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">Discription</a></li>
+                <li><a href="">location</a></li>
+                <li><a href="">Reviews</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact us</a></li>
+
+            </ul>
+        </div>
+        <!-- for extra -->
+        <div class="rig">
+            <button class="btn">Login
+            </button><br>
+            <button class="btn">Guidelines
+            </button><br>
+            <button class="btn">Enroll us
+            </button><br>
+        </div>
+    </header>
+
+</body>
+<div class="container">
+    <h3>Join the best gym for programmers RIGHT NOW !!</h3>
+    <form action="nothing.js">
+        <div class="form-g">
+            <h6>enter your name</h6>
+            <input type="text" name="" id="" placeholder="Enter your name">
+            <h6>enter your date of birth</h6>
+            <input type="date" name="" id="" placeholder="Your date of birth">
+            <h6>enter your current adress</h6>
+            <input type="text" name="" id="" placeholder="Enter your adress">
+            <h6>enter your Email ID</h6>
+            <input type="email" name="" id="" placeholder="Enter your email ID">
+            <h6>enter your Phone No</h6>
+            <input type="number" name="" id="" placeholder="Enter your contact no"><br>
+            <h6>enter your age</h6>
+            <input type="number" name="" id="" placeholder="Enter your age"><br>
+            <h6>enter your Gender</h6>
+            male : <input type="radio" name="" id="">Female : <input type="radio" name="" id="">
+            other :<input type="radio" name="" id=""><br>
+            You are not a robot : <input type="checkbox"><br>
+            <button class="btn">SUBMIT NOW</button>
+        </div>
+    </form>
+</div>
+<aside>
+    <div class="cont1">
+        <h3>Discription</h3>
+        <p>Physical Fitness is very important in a person’s life. Physically fit people are much more productive &
+            successful in their life, not only that; they hold a lot of health benefits over the people who are not fit.
+            They live their life to the full extent, and they don’t have to worry about their health.</p>
+        <img src="https://tse2.mm.bing.net/th?id=OIP.eedgVlN1wSAr7p6VQHk3BgHaFV&pid=Api&P=0" alt="">
+    </div>
+</aside>
+
+</body>
+
+</html>

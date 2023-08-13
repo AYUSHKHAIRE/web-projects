@@ -1,0 +1,13 @@
+extend base.pug
+block scripts 
+  script(src="/static/script.js") 
+block style 
+    style 
+      include ../static/style.css 
+block content 
+    section#intro 
+        | intro for section 
+    section#sponsers 
+        | our sponsers 
+    footer#footer 
+        | this is our footer 

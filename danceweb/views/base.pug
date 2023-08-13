@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title My Site - #{title}
+    block scripts
+    block style
+    nav#navbar.top.firstclass 
+        ul
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+  body
+    block content
+    block footer

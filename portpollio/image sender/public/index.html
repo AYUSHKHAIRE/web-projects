@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Sharing App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    #image-input {
+      margin-bottom: 10px;
+    }
+
+    #image-preview {
+      display: block;
+      max-width: 500px;
+      max-height: 500px;
+      width: auto;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    #send-button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Image Sharing App</h1>
+
+  <!-- Add an input element for image selection -->
+  <input type="file" id="image-input">
+
+  <!-- Display the selected image -->
+  <img id="image-preview" src="#" alt="Image Preview">
+
+  <!-- Add a button to send the image -->
+  <button id="send-button">Send Image</button>
+
+  <!-- Include the Socket.IO library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.js"></script>
+  <script>
+    // Connect to the Socket.IO server
+    const socket = io();
+
+    // Handle image selection and display
+    const fileInput = document.getElementById('image-input');
+    const imagePreview = document.getElementById('image-preview');
+    const sendButton = document.getElementById('send-button');
+
+    sendButton.addEventListener('click', () => {
+      const file = fileInput.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function (event) {
+        const dataURL = event.target.result;
+
+        // Emit the dataURL to the server
+        socket.emit('image', dataURL);
+
+        // Clear the image preview
+        imagePreview.src = '';
+      };
+
+      reader.readAsDataURL(file);
+    });
+
+    fileInput.addEventListener('change', (event) => {
+      const file = event.target.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function (event) {
+        const dataURL = event.target.result;
+
+        // Set the dataURL as the source of the image preview
+        imagePreview.src = dataURL;
+      };
+
+      reader.readAsDataURL(file);
+    });
+
+    // Listen for the 'image' event
+    socket.on('image', (dataURL) => {
+      // Create a new image element
+      const img = document.createElement('img');
+      img.src = dataURL;
+      img.style.maxWidth = '500px';
+      img.style.maxHeight = '500px';
+      img.style.width = 'auto';
+      img.style.height = 'auto';
+
+      // Append the image to the body
+      document.body.appendChild(img);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayushchat</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="stylechat.css">
+</head>
+<body>
+    <div class="cont">
+        <nav>
+            <div><img class="logo" src="chatlogo.png" alt=""></div>
+            <h1>AyushChat</h1>
+        </nav>
+        <div class="messages backgr1">
+            <div class="msg">Welcome to the chatting flatform powered by ayush</div>
+            <div class="msg">if you are joined without entering your name , please reload the page and give your name</div>
+        </div>
+    </div>
+    <div id="send" class="backgr1">
+        <form action="#" id="sendcon">
+            <input type="text" name="msginp" id="msginp" placeholder="Send a message ...">
+            <input type="file" id="image-input">
+            <div id="image-container"></div>
+            <img id="image-preview" src="#" alt="Image Preview">
+            <button class="btn" type="submit">send</button>
+            <button id="send-button">Send Image</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 1041px;
+    background-image: url('https://wallpapercave.com/wp/wp3724325.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::selection {
+    background-color: rgb(100, 255, 185);
+    color: rgb(0, 0, 0);
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+}
+
+#navbar1::before {
+    display: flex;
+    color: red;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+}
+
+#navbar1 {
+    display: flex;
+    color: red;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.75);
+    height: 50px;
+
+}
+
+#navbar1 ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+}
+
+#navbar1 #logo img {
+    float: inline-start;
+    width: 60px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#logo {
+    margin-left: 48px;
+}
+
+#navbar1 ul li a {
+    margin: 2px 32px;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 24px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+
+#navbar1 ul li a:hover {
+    margin: 2px 32px;
+    text-decoration: none;
+    font-size: 24px;
+    width: 100px;
+    color: rgb(33, 20, 60);
+    background-color: rgb(203, 148, 255);
+    border-radius: 20px;
+}
+
+#navbar2 {
+    display: flex;
+    background-color: rgba(39, 18, 49, 0.85);
+    justify-content: center;
+    height: 45px;
+    opacity: 0.9;
+}
+
+#navbar2 ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+}
+
+#navbar2 ul li a {
+    margin: 2px 16px;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 18px;
+}
+
+#navbar2 ul li a:hover {
+    margin: 2px 16px;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(166, 0, 0);
+    background-color: pink;
+    border-radius: 20px;
+    width: 100px;
+    height: 18px;
+}
+
+.homespace {
+    padding-top: 160px;
+}
+
+#home {
+    align-items: center;
+    height: 400px;
+    width: 700px;
+    border-radius: 100px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    background: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600');
+    padding-bottom: 34px;
+    opacity: 52;
+}
+
+#home p {
+    margin: 60px;
+}
+
+#name h3 {
+    color: blue;
+    font-size: 35px;
+}
+
+/* services cont  */
+#services {
+    display: block;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: 400px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#services h1 {
+    font-size: 50px;
+}
+
+#services #servcont {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#servcont .serv {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin: 2%;
+    font-size: 30px;
+    background-color: rgb(28, 28, 28, 0.7);
+    border-radius: 60px;
+}
+
+#servcont .serv img {
+    border-radius: 18px;
+    height: 200px;
+    width: 260px;
+    margin: 20px;
+}
+
+#itemsmenu {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+#menucont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(39, 18, 49, 0.85);
+}
+
+#menucont .menu {
+    margin: 7px;
+}
+
+#menucont .menu img {
+    border: 10px solid rgb(0, 0, 0, 0.75);
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+}
