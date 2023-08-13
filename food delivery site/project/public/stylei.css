@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Tangerine', cursive; */
+/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Tangerine', cursive; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tangerine', 'cursive';
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.back {
+    background: url('https://i.pinimg.com/originals/a6/2c/bd/a62cbdbadc6f861db73cba8573f71ce4.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    height: 56px;
+    width: 60px;
+    border-radius: 30px;
+    margin-right: 40px;
+    border: 3px double red;
+}
+
+.logo img :hover {
+    cursor: pointer;
+}
+
+.blackbg {
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(87, 27, 144, 0.6);
+    height: 80px;
+}
+
+.navbar-toggle {
+    width: 30px;
+    height: 30px;
+    color: #000000;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 25px;
+    font-size: 30px;
+    margin-right: 3px;
+    border: 2px solid black;
+}
+
+.mainbox-hold {
+    display: grid;
+    grid-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+}
+
+.mainbox {
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.mainbox:hover {
+    width: 350px;
+    height: 400px;
+    background-color: rgb(175, 175, 175, 0.2);
+    border-radius: 5px;
+    color: rgb(221, 185, 255);
+}
+
+nav .left {
+    margin-left: 5%;
+}
+
+nav .right {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+nav .right ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+nav .right ul li {
+    margin: 20px 30px;
+    font-size: 26px;
+}
+
+nav .right ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav .right ul li :hover {
+    color: #e40000;
+    background-color: transparent;
+    border: 0.75px solid rgb(192, 192, 192);
+    border-radius: 45px;
+    padding: 5px 10px;
+}
+
+nav .left {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav .left ul {
+    margin: 20px 30px;
+    font-size: 36px;
+}
+
+.firsec {
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.firsec div {
+    width: 48%;
+}
+
+.firsec .lefsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 7, 61, 0.4);
+    font-size: 55px;
+    margin: 40px 0px;
+    width: 100%;
+}
+
+.buttonm {
+    color: #ffffff;
+    border-radius: 30px;
+    border: 0.7px solid rgb(255, 0, 0);
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    font-size: 24px;
+    margin-top: 100px;
+}
+
+.buttonm a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.buttonm:hover {
+    color: #e40000;
+    cursor: pointer;
+    border: 0.7px solid rgb(255, 255, 255);
+}
+
+.buttonm a:hover {
+    color: #e40000;
+}
+
+.purp,
+.prof {
+    color: rgb(199, 36, 36);
+    cursor: pointer;
+}
+
+.poi {
+    cursor: pointer;
+}
+
+.firsec .rigsec {
+    background-color: rgb(217, 28, 28);
+}
+
+.firsec .rigsec img {
+    width: 100%;
+    margin: 60px 0px;
+}
+
+#element {
+    color: rgb(199, 36, 36);
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    background: #ff0000;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secsection {
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.secsection .text-grey {
+    color: gray;
+}
+
+.secsection .box {
+    background: white;
+    width: 70vw;
+    height: 2px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.secsection .vertical {
+    background: white;
+    width: 1px;
+    height: 400px;
+}
+
+.mar {
+    margin: 70px 10px;
+    width: 100%;
+}
+
+.image-top {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -45px;
+    border-radius: 50px;
+}
+
+.vertical-title {
+    color: #ff0000;
+    margin: 30px;
+    width: 250px;
+    font-size: 37px;
+}
+
+.vertical-desc {
+    width: 250px;
+    margin: 30px;
+}
+
+.right1 {
+    display: flex;
+    float: left;
+    width: 50%;
+}
+
+.right1 ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.right1 ul li {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 16px 20px;
+    font-size: 23px;
+}
+
+.right1 ul li a:hover {
+    color: red;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.right1 ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.foot {
+    display: none;
+    float: bottom;
+    width: 100vw;
+    height: 50px;
+    background-color: transparent;
+    margin-top: -50vh;
+    position: fixed;
+}
+
+.footcont {
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.3);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.footcont ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.footcont ul li {
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 90%;
+    width: 23%;
+    margin: 1%;
+    border-radius: 23px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footcont ul li a {
+    background-color: aliceblue;
+    border-radius: 22px;
+}
+
+.footcont ul li a img {
+    height: 40px;
+    width: 44px;
+    border-radius: 22px;
+    margin: auto;
+}
+
+/* media qurris  */
+@media (max-width: 899px) {
+    .blackbg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btnc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .right ul li {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    main .firsec .lefsec {
+        margin-top: 200px;
+        font-size: 30px;
+    }
+
+    .lend {
+        width: 80%;
+    }
+
+    #confood {
+        max-width: 100vw;
+    }
+
+    #right {
+        display: none;
+        flex-direction: column;
+    }
+
+    .right1 {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .foot {
+        display: block;
+    }
+
+    .thanks {
+        font-size: 12px;
+        width: 100vw;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+}
+
+::selection {
+    background-color: rgb(216, 178, 252);
+    color: rgb(255, 0, 0);
+}
+
+solidcolor {
+    color: #e40000;
+}
+
+/* thanks.html  */
+.container {
+    margin: auto;
+    margin-top: 320px;
+    width: 100%;
+    height: 100%;
+    /* background-color: hsl(0, 100%, 14%); */
+}
+
+.thanks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: auto;
+    font-size: 34px;
+}
+
+.container .thanks button {
+    height: 40px;
+    width: 200px;
+    background-color: #000000;
+    color: #e40000;
+    font-size: 28px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.container .thanks button:hover {
+    height: 60px;
+    width: 250px;
+    background-color: #5d0000;
+    color: #ff0000;
+    font-size: 28px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.thanks h1 {
+    color: #e40000;
+}
+
+button a {
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -1,0 +1,79 @@
+{"name":"Ayush Rajesh Khaire ","address":"a","number":"12","email":"khaireayush2005@gmail.com","fooditem":"pizza","payment":"on"}
+{"name":"hello","address":"b","number":"234","email":"khaireayush2005@gmail.com","fooditem":"pizza","payment":"on"}
+{"name":"Riyansh","address":"d","number":"456","email":"khaireayush2005@gmail.com","fooditem":"pizza","payment cash on delivery":"on"}
+{"name":"khandu","address":"dqwsdd","number":"456456565","email":"khaireayush2005@gmail.com","fooditem":"burger","payment cash on delivery":"on","payment":"on"}
+{"name":"","address":"","number":"","email":"","fooditem":"pizza"}
+{"name":"Riyansh","address":"weedhjbjhbjhbvccvsdfvdfvfvvvv","number":"4321","email":"khaireayush2005@gmail.com","fooditem":"pizza","payment-upi":"on"}
+{"name":"Riyansh","address":"weedhjbjhbjhbvccvsdfvdfvfvvvv","number":"4321","email":"khaireayush2005@gmail.com","fooditem":"pizza","payment-upi":"on"}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":""}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":""}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"khaireayush2005@gmail.com","fooditem":""}
+{"name":"Shubham Prashant shelar ","address":"","number":"","email":"khaireayush2005@gmail.com","fooditem":"burger","payment-cards":"on"}
+{"name":"","address":"","number":"","email":"khaireayush2005@gmail.com","fooditem":"","payment-upi":"on"}
+{"name":"","address":"","number":"","email":"","fooditem":"burger"}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":"burger"}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":"burger"}
+{"name":"Ayush Rajesh Khaire ","address":"avsdrresteudsuduurrutyydshffhhdfhjsjdaksdjahsdashdsadshksadkhdksajdsakdsjdsajkjsaksdja","number":"-1","email":"khaireayush2005@gmail.com","fooditem":"roti","payment-upi":"on"}
+{"name":"Ayush Rajesh Khaire ","address":"avsdrresteudsuduurrutyydshffhhdfhjsjdaksdjahsdashdsadshksadkhdksajdsakdsjdsajkjsaksdja","number":"-1","email":"khaireayush2005@gmail.com","fooditem":"roti","payment-upi":"on"}
+{"name":"Ayush Rajesh Khaire ","address":"avsdrresteudsuduurrutyydshffhhdfhjsjdaksdjahsdashdsadshksadkhdksajdsakdsjdsajkjsaksdja","number":"-1","email":"khaireayush20ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff05@gmail.com","fooditem":"roti","payment cash on delivery":"on","payment-upi":"on","payment-cards":"on"}
+{"name":"Riyansh","address":"","number":"","email":"","fooditem":""}
+{"name":"Shravani rajesh khaire ","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"2334455454545454545454","email":"","fooditem":""}
+{"name":"","address":"address","number":"2334455454545454545454","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":"","payment cash on delivery":"on","payment-upi":"on","payment-cards":"on"}
+{"name":"Shubham Prashant shelar ","address":"no","number":"-2","email":"khaireayush20ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff05@gmail.com","fooditem":"roti","payment cash on delivery":"on","payment-upi":"on","payment-cards":"on"}
+{"name":"kishor","address":"aseddddjnjn","number":"45545545","email":"khaireayush20ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff05@gmail.com","fooditem":"paneer","payment-cards":"on"}
+{"name":"Rudransh","address":"","number":"","email":"","fooditem":""}
+{"name":"Rudransh","address":"","number":"","email":"khaireayush2005@gmail.com","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"Riyansh","address":"eddsadslkjhgfdsa","number":"1","email":"khaireayush20ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff05@gmail.com","fooditem":"roti","payment-upi":"on"}
+{"name":"","address":"","number":"5454545454","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":""}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":""}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":""}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"Ayush Rajesh Khaire ","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"Shubham Prashant shelar ","address":"87654","number":"87655","email":"khaireayush20ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff05@gmail.com","fooditem":"pizza","payment-upi":"on"}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"Rudransh","address":"hhggfffgfgfggfgfgfgfgf","number":"1478523698523147","email":"khaireayush2005@gmail.com","fooditem":"pizza","payment-cards":"on"}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"kentlink","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"","address":"","number":"","email":"","fooditem":""}
+{"name":"a","address":"","number":"","email":"","fooditem":""}
+{"name":"rrzqxswcdssssswqq","address":"qwww","number":"325","email":"ayush@gmai.com","fooditem":"wwhy gw2","payment-upi":"on"}
+{"name":"","address":"","number":"","email":"","fooditem":"s","payment cash on delivery":"on"}
+{"name":"kishor","address":"shshs","number":"142514525","email":"dndsndsnd@ssn.cocn","fooditem":"mwefcmerv,eg,","payment cash on delivery":"on"}
+{"name":"Riyansh","address":"rerfgrfe","number":"588588","email":"khaireayush20ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff05@gmail.com","fooditem":"pizza","payment-upi":"on"}

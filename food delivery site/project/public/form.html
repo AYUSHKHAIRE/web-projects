@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form</title>
+  <!-- <script src="scriptorder.js"></script> -->
+  <link rel="stylesheet" href="order.css">
+  <link rel="stylesheet" href="stylei.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    .ordercontainer {
+      margin-top: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <nav class="back blackbg">
+        <div class="left">
+          <img class="logo poi" src="https://vectorified.com/image/whole-foods-logo-vector-34.jpg" alt="">
+          <h1 class="purp" style="font-size: 44px; ">FoodyJoy</h1>
+        </div>
+        <div class="right1" id="right">
+          <ul>
+            <li><a target="_blank" href="index.html">Home</a></li>
+            <li><a target="_blank" href="index.html">about</a></li>
+            <li><a target="_blank" href="services.html">services</a></li>
+            <li><a target="_blank" href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="ordercontainer">
+    <h1>Form</h1>
+    <form action="http://localhost:3000/save-data" method="POST">
+      <h2> order here</h2>
+      <form action="/order" class="bg" method="post">
+        <h3>Your name : <input type="text" placeholder="Enter your name" name="name"></h3>
+        <h3>Enter your adress</h3>
+        <h3><textarea name="address" id="" cols="30" rows="10" placeholder="Enter your adress"></textarea></h3>
+        <h3>Your mobile number : <input type="number" name="number" id="" placeholder="Enter your mobile number"></h3>
+        <h3>Email : <input type="email" name="email" id="" placeholder="Enter your email"></h3>
+        <h3>Select the food item that you want to order</h3>
+        <input type="text" placeholder="Type names of items by comma sapreated" name="fooditem">
+        <h2>Payment options</h2>
+        <div class="payment">
+          <div class="po">
+            <img src="https://etimg.etb2bimg.com/photo/55492753.cms" alt="">
+            <h3>Cash on delivery</h3>
+            <input type="radio" name="payment cash on delivery" id="">
+          </div>
+          <div class="po">
+            <img
+              src="https://1.bp.blogspot.com/-eVq7-RkZQnU/XvdKr93brzI/AAAAAAAACco/pxujCzilVsUEdhu5MiA1nqqRctRFDZw6gCK4BGAsYHg/w1200-h630-p-k-no-nu/UPI%2BIMAGE.jpg"
+              alt="">
+            <h3>UPI</h3>
+            <input type="radio" name="payment-upi" id="">
+          </div>
+          <div class="po">
+            <img src="https://cdn.pixabay.com/photo/2018/03/09/22/06/card-3212764_960_720.png" alt="">
+            <h3>Credit / debit card</h3>
+            <input type="radio" name="payment-cards" id="">
+          </div>
+        </div>
+        <button type="submit">submit</button>
+      </form>
+  </div>
+  </div>
+</body>
+
+</html>

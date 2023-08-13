@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ayush portpollio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylei.css">
+    <style>
+        /* thanks.html  */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Tangerine', cursive; */
+        /* font-family: 'Ubuntu', sans-serif; */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Tangerine', cursive; */
+        /* font-family: 'Ubuntu', sans-serif; */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Tangerine', 'cursive';
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .back {
+            background: url('https://i.pinimg.com/originals/a6/2c/bd/a62cbdbadc6f861db73cba8573f71ce4.jpg');
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .logo {
+            height: 56px;
+            width: 60px;
+            border-radius: 30px;
+            margin-right: 40px;
+            border: 3px double red;
+        }
+
+        .logo img :hover {
+            cursor: pointer;
+        }
+
+        .blackbg {
+            background-color: rgb(0, 0, 0, 0.4);
+            z-index: 2;
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            background-color: rgb(0, 0, 0, 0.4);
+            z-index: 10;
+            overflow: hidden;
+            display: flex;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(87, 27, 144, 0.6);
+            height: 80px;
+        }
+
+        nav .left {
+            margin-left: 5%;
+        }
+
+        nav .left {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav .left ul {
+            margin: 20px 30px;
+            font-size: 36px;
+        }
+
+        .container {
+            margin: auto;
+            margin-top: 200px;
+            width: 100%;
+            height: 100%;
+            /* background-color: hsl(0, 100%, 14%); */
+        }
+
+        .thanks {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            padding: auto;
+            font-size: 34px;
+        }
+
+        .container .thanks button {
+            height: 40px;
+            width: 200px;
+            background-color: #000000;
+            color: #e40000;
+            font-size: 28px;
+            border: 2px solid red;
+            border-radius: 20px;
+        }
+
+        .container .thanks button:hover {
+            height: 60px;
+            width: 250px;
+            background-color: #5d0000;
+            color: #ff0000;
+            font-size: 28px;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+
+        .thanks h1 {
+            color: #e40000;
+        }
+
+        button a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="back blackbg">
+                <div class="left">
+                    <img class="logo poi" src="https://vectorified.com/image/whole-foods-logo-vector-34.jpg" alt="">
+                    <h1 class="purp" style="font-size: 44px; ">FoodyJoy</h1>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="thanks">
+                <h1>contact us</h1>
+                <h2>Email : contact@Foodyjoy.com</h2>
+                <h2>Phone : +91 2222234343</h2>
+                <button class=""><a href="index.html">Go to home</a></button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
