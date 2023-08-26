@@ -43,6 +43,7 @@ nav {
     background-color: transparent;
     height: 80px;
     transform: skewX() 0.5s;
+    transition: opacity 0.5s ease
 }
 
 nav .left ul {
